@@ -1,0 +1,18 @@
+{
+  "call_number": 1,
+  "purpose": "problem-level-novelty-review",
+  "tool": "collaboration.spawn_agent",
+  "backend": "codex",
+  "agent_id": "/root/source_semantic_problem_check",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "reviewer_model_source": "requested",
+  "effort": "xhigh",
+  "review_completed": true,
+  "review_scope_complete": true,
+  "status": "completed",
+  "verdict": "PROCEED WITH CAUTION",
+  "review_positive": false,
+  "review_independence": "unknown",
+  "acceptance_status": "provisional"
+}

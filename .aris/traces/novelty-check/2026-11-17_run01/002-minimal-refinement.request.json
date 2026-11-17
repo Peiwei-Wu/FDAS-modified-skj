@@ -1,0 +1,11 @@
+{
+  "call_number": 2,
+  "purpose": "minimal-problem-driven-refinement",
+  "tool": "collaboration.followup_task",
+  "backend": "codex",
+  "agent_id": "/root/semantic_source_novelty_review",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "acceptance_status": "provisional",
+  "prompt": "用户新增明确约束：他知道一器官多簇，接受自监督伪标签不完美，不要反复要求完美语义；他意识到组合像ALPS+RegionCL，想小改而非照搬，也不是硬凑新模块。请用400字内建议最小且问题驱动的1–2处改动，明确如何补组合后独有缺口，别把已有ClassMix标签跟随、类别pooling、置信度加权包装为首次。我正在考虑：两来源区域都跟踪其实际伪类组成，source确定正对，语义组成控制负对，而不是只对保留A的nonk做负对、Bgeo没有语义负对；通过伪标签图的区域类别占比h，w_neg=1-h_i·h_j作为软负对权重（它与‘类不同即负’同属已知原则，未做查新，不能称数学新颖）。另一个方向：伪语义分割先保持原结构SKD辅头不替换，从单图结构边界和跨图共享类别互补，但新增头非用户希望，可能不优先。你独立评价前者能否支撑有意义的扩刊增量，有无更小且更扎实思路。不再搜索大清单、不改文件。"
+}

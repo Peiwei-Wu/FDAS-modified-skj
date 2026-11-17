@@ -1,0 +1,14 @@
+{
+  "skill": "novelty-check",
+  "run_id": "2026-11-17_run01",
+  "started_at": null,
+  "run_date": "2026-11-17",
+  "executor": "codex",
+  "executor_model": null,
+  "reviewer_backend": "codex",
+  "requested_reviewer_model": "gpt-6-astra",
+  "project_dir": "/mnt/e/peiweiwu/ssl/fdas-modified",
+  "reviewer_route": "native default; canonical route helper unavailable; no project override",
+  "scope": "Literature novelty and conceptual logic only; no code changes",
+  "date_precision": "day; exact start time not recorded"
+}

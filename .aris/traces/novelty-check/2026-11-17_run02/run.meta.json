@@ -1,0 +1,12 @@
+{
+  "skill": "novelty-check",
+  "run_id": "2026-11-17_run02",
+  "run_date": "2026-11-17",
+  "executor": "codex",
+  "executor_model": null,
+  "reviewer_backend": "codex",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reviewer_route": "native default; canonical route helper unavailable; no project override",
+  "project_dir": "/mnt/e/peiweiwu/ssl/fdas-modified",
+  "scope": "Problem/insight novelty: content provenance versus semantic identity under cross-patient region mixing"
+}

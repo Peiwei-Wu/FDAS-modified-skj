@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.claude/
+.vscode/
+
+# Project specific
+outputs/
+models/
+results/
+
+# Data
+*.h5
+*.nii.gz
+*.pkl
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
